@@ -2,7 +2,7 @@
 This is a tool used for querying the Yelp API based on a set of geographic locales.
 
 ## What Data Points Does This Script Give You?
-This tool will give you a [CSV file](## What Does the Output Look Like?) that includes:
+This tool will give you a [CSV file](##-What-Does-the-Output-Look-Like?) that includes:
 1. __The count of businesses in each geographic area that fit into whichever category you're searching for.__ How many hotels are there in the San Diego metro area? This script can tell you.
 2. __The average Yelp star rating of businesses in a given category for each geographic area.__ If you'd like to know what the average star rating of hotels in the San Diego metro area is, this script can tell you. The star rating ranges from 0 to 5.
 
@@ -36,6 +36,6 @@ To use this tool, you will need:
 ## What Does the Output Look Like?
 This script will create a CSV file when it is finished running. The formatting of that CSV file should look like this:
 
-        |  | CBSA code | city/metro Area | latitude | longitude | count | avg rating |
-        | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-        | 0 | 41180 | St. Louis | 38.8197 | -90.4502 | 246 | 3.94 |
+|  | CBSA code | city/metro Area | latitude | longitude | count | avg rating |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| 0 | 41180 | St. Louis | 38.8197 | -90.4502 | 246 | 3.94 |
