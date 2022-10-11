@@ -20,8 +20,7 @@ To use this tool, you will need:
         ```
         CATEGORY = "hotels"
         ```
-
-3.__Edit the name of the CSV output.__ Change the OUTPUT_FILE variable to what you want the CSV output file to be named.
+3. __Edit the name of the CSV output.__ Change the OUTPUT_FILE variable to what you want the CSV output file to be named.
     *_Example:_
         ```
         OUTPUT_FILE = "hotels.csv"
